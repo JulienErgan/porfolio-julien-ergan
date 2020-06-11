@@ -1,5 +1,16 @@
 // Specific CSS for your home-page
 
+
+// START - projects screenshots
+.homepage-projects-screenshot {
+  height: auto;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+// END - projects screenshots
+
+
+// START - banner onebite project
 .banner-onebite {
   background-size: cover;
   background-position: center;
@@ -19,7 +30,6 @@
   // font-weight: bold;
 }
 
-
 .onebite-catchphrase {
   color: rgb(80,80,80);
   font-size: 24px;
@@ -29,18 +39,14 @@
 .onebite-paragraph {
   font-weight: lighter;
 }
+// END - banner onebite project
 
 
+// START - banner jimotrip project
 .banner-jimotrip {
 
 }
+// END - banner jimotrip project
 
 
-
-
-.homepage-projects-screenshot {
-  height: auto;
-  width: 100%;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
 
