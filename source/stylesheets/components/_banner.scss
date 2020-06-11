@@ -3,9 +3,9 @@
  .banner {
   background-size: cover;
   background-position: center;
-  background-color: rgb(0, 119, 181);
+  background-color: rgb(0,119,181);
    // background-color: rgb(248, 248, 248);
-  padding: 150px 0;
+  padding: 120px 0;
   // gradient:;
 }
 
@@ -34,8 +34,8 @@
 }
 
 .banner-links a {
-  // color: black; #888888
-  color: #f0f0f0;
+  // color: black; bleu #888888; grey #f0f0f0
+  color: rgb(240,240,240);
   // opacity: 0.15;
   opacity: 0.6;
   text-decoration: none;
@@ -48,6 +48,13 @@
   transition: 0.3s;
 }
 // END - logos
+
+
+// START - name
+
+
+// END - name
+
 
 
 // START - job titles

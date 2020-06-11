@@ -5,11 +5,38 @@
   padding: 8px 24px;
   border-radius: 4px;
   background: #1EDD88;
-  transition: background 0.3s ease;
+  // transition: background 0.3s ease;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
 }
 
 .btn-flat:hover {
+  opacity: 1;
   background: #1BCB7F;
   color: white;
 }
 // START - button for banner (boilerplate from Le Wagon UI Kitt)
+
+
+// START - homepage OneBite project button
+
+.btn-ghost {
+  // color: rgb(74,74,74);
+  color: rgb(240,240,240);
+  background-color: rgb(235,235,235);
+  // border: 1px solid rgb(235,235,235);
+  // border: 1px solid rgb(74,74,74);er
+  // box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  padding: 8px 24px;
+  border-radius: 16px;
+  // padding: 12px 32px;
+  // border-radius: 50px;
+  font-weight: bold;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+}
+// END - homepage OneBite project button
