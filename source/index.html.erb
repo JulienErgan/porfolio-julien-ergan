@@ -1,26 +1,35 @@
 
 <div class="banner">
   <div class="container">
-    <div>
-      <%= image_tag "Profil-photo.png", class: "avatar-large-banner", alt: "Avatar Julien Ergan" %>
-    </div>
-    <div>
-      <div class="d-flex">
-         <h1>Julien Ergan</h1>
+    <div class="row justify-content-center">
+      <div class="col-6 name">
+         <h1>#{ Julien Ergan }</h1>
       </div>
-      <div>
-        <p class="job-title">Full Stack Web Developer</p>
-        <p>Data Science / Deep Learning (soon in training at Tokyo Data Science)</p>
-        <p>Water and Environmenal Engineer</p>
-        <p>Spouse visa for Japan - 日本人の配偶者等</p>
-        <!-- <a class="btn btn-flat" href="#">Apply now</a> -->
-        <div class="banner-links">
-          <a href="https://github.com/JulienErgan" target="_blank"><i class="fab fa-github"></i></a>
-          <!-- <a href="#"><i class="fab fa-instagram"></i></a> -->
-         <!--  <a href="#"><i class="fab fa-facebook"></i></a> -->
-          <a href="https://www.linkedin.com/in/julienergan/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="https://twitter.com/erganjulien" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://medium.com/@julien.ergan.code" target="_blank"><i class="fab fa-medium"></i></a>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <%= image_tag "julien-le-wagon.jpg", class: "avatar-large-banner", alt: "Avatar Julien Ergan" %>
+      </div>
+      <div class="col-8">
+        <div>
+  <!--         <div class="name">
+             <h1>#{ Julien Ergan }</h1>
+          </div> -->
+          <div>
+            <p class="job-title">Full Stack Web Developer</p>
+            <p>Data Science / Deep Learning (soon in training at Tokyo Data Science)</p>
+            <p>Water and Environmenal Engineer</p>
+            <!-- <p>Spouse visa for Japan - 日本人の配偶者等</p> -->
+            <!-- <a class="btn btn-flat" href="#">Apply now</a> -->
+            <div class="banner-links">
+              <a href="https://github.com/JulienErgan" target="_blank"><i class="fab fa-github"></i></a>
+              <!-- <a href="#"><i class="fab fa-instagram"></i></a> -->
+             <!--  <a href="#"><i class="fab fa-facebook"></i></a> -->
+              <a href="https://www.linkedin.com/in/julienergan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://twitter.com/erganjulien" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://medium.com/@julien.ergan.code" target="_blank"><i class="fab fa-medium"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -34,26 +43,44 @@
 </div> -->
 
 
-<div class="container">
-  <div class="row justify-content-center">
-    <h1>OneBite</h1>
-    <a href="www.onebite.fun"></a>
+<div class="banner-onebite">
+  <div class="container">
+    <div class="row">
+      <div class="col-5">
+        <%= image_tag "onebite-homepage.png", class: "homepage-projects-screenshot", alt: "OneBite homepage screenshot" %>
+      </div>
+      <div class="col-7">
+        <h1>OneBite</h1>
+        <p class="onebite-catchphrase">Ever started an online learning but never completed it?</p>
+        <p class="onebite-paragraph">OneBite supports learners to complete their online courses...OneBite at a time.
+          Learners can find the best courses from the best online learning platforms,
+          easily schedule their lessons using Google calendar, track their progress,
+        and stay motivated by competiting with their friends.
+        A key feature is the use of API to automatically update the user's experience
+        points on Duolingo (language learning app).</p>
+        <a class="btn btn-ghost",href="http://www.onebite.fun" target="_blank">Visit OneBite</a></p>
+      </div>
+    </div>
   </div>
 </div>
 
 
-<div class="container">
+<div class="banner-jimotrip">
+  <div class>
+
+  </div>
+
   <div class="row justify-content-center">
     <h1>Jimotrip</h1>
-    <a href="https://jimotrip.herokuapp.com"></a>
+    <a href="https://jimotrip.herokuapp.com" target="_blank">Jimotrip</a>
   </div>
 </div>
 
 
-<div class="container">
+<div class="banner-mister-cocktail">
   <div class="row justify-content-center">
     <h1>Mister Cocktail</h1>
-    <a href="https://for-goodness-shake-cocktail.herokuapp.com"></a>
+    <a href="https://for-goodness-shake-cocktail.herokuapp.com" target="_blank">Mister Cocktail</a>
   </div>
 </div>
 
@@ -67,6 +94,6 @@
     <a href="#"><i class="fab fa-linkedin"></i></a>
   </div>
   <div class="footer-copyright">
-    This footer is made with <i class="fas fa-heart"></i> at Le Wagon
+    This footer is made with <i class="fas fa-heart"></i> at home
   </div>
 </div>
