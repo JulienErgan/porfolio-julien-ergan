@@ -9,21 +9,35 @@
   // gradient:;
 }
 
+// START - name
+.title-name {
+  // color: rgb(245,245,245);
+  // font-family: ;
+  font-size: 60px;
+}
+// END - name
+
 
 .banner h1 {
-  margin: 0;
-  color: white;
+  margin-bottom: 24px;
+  color: rgb(230,230,230);
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
+  font-size: 60px;
   font-weight: bold;
 }
 
 .banner p {
   font-size: 20px;
-  color: white;
-  opacity: .7;
+  color: rgb(240,240,240);
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
 }
+
+.banner p:hover {
+  opacity: 1;
+}
+
 // END - banner (boilerplate from Le Wagon UI Kitt)
 
 
@@ -35,7 +49,7 @@
 
 .banner-links a {
   // color: black; bleu #888888; grey #f0f0f0
-  color: rgb(240,240,240);
+  color: rgb(230,230,230);
   // opacity: 0.15;
   opacity: 0.6;
   text-decoration: none;
@@ -45,7 +59,7 @@
 
 .banner-links a:hover {
   opacity: 1;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 // END - logos
 
