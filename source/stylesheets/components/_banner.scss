@@ -55,13 +55,39 @@
   text-decoration: none;
   font-size: 40px;
   padding: 0px 10px;
+  transition: 0.3s ease;
 }
 
 .banner-links a:hover {
   opacity: 1;
-  transition: 0.3s ease;
 }
 // END - logos
+
+
+// START - stack logos
+.banner-stack-links {
+  display: flex;
+  align-items: center;
+}
+
+.banner-stack-links .logos {
+  // color: black; bleu #888888; grey #f0f0f0
+  color: rgb(230,230,230);
+  // opacity: 0.15;
+  opacity: 0.6;
+  text-decoration: none;
+  widows: 40px;
+  height: auto;
+  padding: 0px 10px;
+  transition: 0.3s ease;
+}
+
+
+.banner-stack-links .logos:hover {
+  opacity: 1;
+}
+// END - stack logos
+
 
 
 // START - name

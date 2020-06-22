@@ -14,6 +14,7 @@
   // color: rgb(110,110,110);
   // color: rgb(80,80,80);
   color: rgba(0,0,0,.84);
+  padding-bottom: 16px;
   // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   // font-size: 32px;
   // font-weight: bold;
@@ -28,6 +29,42 @@
 .paragraph-about {
   font-weight: 300;
 }
+
+// .section-about .full-stack-web-dev {
+//   font-weight: 700;
+//   color: rgba(0,0,0,0.8);
+// }
+
+.section-about .highlighted {
+  line-height: 1.1em;
+  // display: inline-block;
+  padding: 7px 15px 6px;
+}
+
+.section-about .highlighted .highlighted-blue {
+  color: #fd1015;
+  background-color: rgba(253,16,21,0.1);
+}
+
+
+.section-about .water-engineer {
+  font-weight: 700;
+  color: rgba(0,0,0,0.5);
+}
+
+.section-about .section-about-links {
+  text-decoration: none;
+  color: rgb(0, 119, 181);
+  font-weight: 500;
+  opacity: 1;
+  transition: text-decoration 0.3s ease;
+}
+
+.section-about .section-about-links:hover {
+  text-decoration: none;
+}
+
+
 // END - section About
 
 
