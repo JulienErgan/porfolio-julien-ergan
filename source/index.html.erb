@@ -1,17 +1,16 @@
 
 <div class="banner">
   <div class="container">
-    <div class="row justify-content-center pb-3">
-      <div class="col-4"></div>
-      <div class="col-8">
+    <div class="row justify-content-center pb-2">
+      <div class="col-6">
          <h1>#{ Julien Ergan }</h1>
       </div>
     </div>
-    <div class="row">
+    <div class="row pt-2">
       <div class="col-4">
         <%= image_tag "julien-le-wagon.jpg", class: "avatar-large-banner", alt: "Avatar Julien Ergan" %>
       </div>
-      <div class="col-8 pt-2">
+      <div class="col-8">
         <div>
           <p class="job-title">Full Stack Web Developer</p>
       <!--     <p>Data Science / Deep Learning (soon in training at Tokyo Data Science)</p>
@@ -23,11 +22,41 @@
             <a href="https://twitter.com/erganjulien" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://medium.com/@julien.ergan.code" target="_blank"><i class="fab fa-medium"></i></a>
           </div>
+          <div class="banner-stack-links">
+            <ul>
+              <li><%= image_tag "ruby.png", alt: "ruby logo", class: "logos"%></li>
+              <li></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
+<div class="section-about">
+  <div class="container">
+    <div class="row">
+      <div class="col-7">
+        <h1>👋 About</h1>
+        <p class="paragraph-about">Hi I'm <span class="about-julien">Julien</span>. I was born in west side of France (Rennes, Brittany) <br>
+        <p class="paragraph-about">I am full-stack Web Developer and a recent graduate of <a href="https://www.lewagon.com/tokyo" target="_blank"">Le Wagon Tokyo</a>.</p>
+        <p class="paragraph-about"> I initially graduated as a Water & Enviromental Engineer from the ENGEES, Strasbourg, France and the Unversity of Cranfield, UK where I met my wife (Japanese native). As part of my studies
+      I did two internships in African countries, first in the rural town of Saa in Cameroon, and a second one in the capital city of Maputo for the NGO WSUP.</p>
+        <p class="paragraph-about">Then I worked a few years for Scottish Water, the national water and waterwater service provider of Scotland.</p>
+        <p class="paragraph-about">I moved to Japan in early 2018 and followed Japanese language course at YIEA from April 2018 until December 2019. I obtained the JLPT N2 in December 2019 (and the JLPT N3 in July 2019).</p>
+        <p>Ruby on Rails | HTML | JavaScript |</p>
+        <p>Interest in learning Data Science / Deep Learning at <a href="https://tokyodatascience.com/", target="_blank">Tokyo Data Science</a></p>
+        <a href="https://www.julienergan/about"><i class="fas fa-info"></i>Want to know more?</a>
+      </div>
+      <div class="col-5">
+        <%= image_tag "saki-julien.jpg", class: "homepage-about-julien-photo", alt: "Photo Julien" %>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div class="banner-onebite">
   <div class="container">
@@ -76,7 +105,7 @@
         <div class="col-7">
           <h1>For Goodness Shake Cocktail</h1>
           <p class="catchphrase-onebite">Your cocktail rendez-vous</p>
-          <p class="paragraph-onebite">TODO</p>
+          <p class="paragraph-onebite">A Web App for listing and creating cocktail recipes with photo upload.</p>
           <%= link_to "Visit For Goodness Shake Cocktail", "https://for-goodness-shake-cocktail.herokuapp.com/cocktails", target: "_blank", class: "btn btn-jimotrip" %>
         </div>
       </div>
