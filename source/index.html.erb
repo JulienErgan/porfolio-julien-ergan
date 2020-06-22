@@ -1,8 +1,9 @@
 
 <div class="banner">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-6">
+    <div class="row justify-content-center pb-3">
+      <div class="col-4"></div>
+      <div class="col-8">
          <h1>#{ Julien Ergan }</h1>
       </div>
     </div>
@@ -10,17 +11,14 @@
       <div class="col-4">
         <%= image_tag "julien-le-wagon.jpg", class: "avatar-large-banner", alt: "Avatar Julien Ergan" %>
       </div>
-      <div class="col-8">
+      <div class="col-8 pt-2">
         <div>
           <p class="job-title">Full Stack Web Developer</p>
-          <p>Data Science / Deep Learning (soon in training at Tokyo Data Science)</p>
-          <p>Water and Environmenal Engineer</p>
+      <!--     <p>Data Science / Deep Learning (soon in training at Tokyo Data Science)</p>
+          <p>Water and Environmenal Engineer</p> -->
           <!-- <p>Spouse visa for Japan - 日本人の配偶者等</p> -->
-          <!-- <a class="btn btn-flat" href="#">Apply now</a> -->
           <div class="banner-links">
             <a href="https://github.com/JulienErgan" target="_blank"><i class="fab fa-github"></i></a>
-            <!-- <a href="#"><i class="fab fa-instagram"></i></a> -->
-           <!--  <a href="#"><i class="fab fa-facebook"></i></a> -->
             <a href="https://www.linkedin.com/in/julienergan/" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://twitter.com/erganjulien" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://medium.com/@julien.ergan.code" target="_blank"><i class="fab fa-medium"></i></a>
@@ -46,7 +44,7 @@
         and stay motivated by competiting with their friends.
         A key feature is the use of API to automatically update the user's experience
         points on Duolingo (language learning app).</p>
-        <a class="btn btn-onebite" href="http://www.onebite.fun" target="_blank">Visit OneBite</a>
+        <%= link_to "Visit OneBite", "http://www.onebite.fun", target: "_blank", class: "btn btn-onebite" %>
       </div>
     </div>
   </div>
@@ -57,9 +55,10 @@
     <div class="row">
       <div class="col-7">
         <h1>Jimotrip</h1>
-        <p class="catchphrase-jimotrip">Want to live authentic and original experiences?</p>
+        <p class="catchphrase-jimotrip">Want to live an authentic and original experiences?</p>
         <p class="paragraph-jimotrip">Jimotrip helps tourists finding authentic and original experiences with local guides.</p>
-        <a class="btn btn-jimotrip",href="https://jimotrip.herokuapp.com" target="_blank">Visit Jimotrip</a>
+        <%= link_to "Visit Jimotrip", "https://jimotrip.herokuapp.com", target: "_blank", class: "btn btn-jimotrip" %>
+        <!-- <a class="btn btn-jimotrip",href="https://jimotrip.herokuapp.com" target="_blank">Visit Jimotrip</a> -->
       </div>
       <div class="col-5">
         <%= image_tag "jimotrip-homepage.png", class: "homepage-projects-screenshot", alt: "OneBite homepage screenshot" %>
@@ -72,13 +71,13 @@
     <div class="container">
       <div class="row">
         <div class="col-5">
-          <%= image_tag "", class: "homepage-projects-screenshot", alt: "For Goodness Shake Cocktail homepage screenshot" %>
+          <%= image_tag "goodness-shake-cocktail-homepage.png", class: "homepage-projects-screenshot", alt: "For Goodness Shake Cocktail homepage screenshot" %>
         </div>
         <div class="col-7">
           <h1>For Goodness Shake Cocktail</h1>
           <p class="catchphrase-onebite">Your cocktail rendez-vous</p>
           <p class="paragraph-onebite">TODO</p>
-          <a class="btn btn-onebite",href="https://for-goodness-shake-cocktail.herokuapp.com" target="_blank">Visit For Goodness Shake Cocktail</a>
+          <%= link_to "Visit For Goodness Shake Cocktail", "https://for-goodness-shake-cocktail.herokuapp.com/cocktails", target: "_blank", class: "btn btn-jimotrip" %>
         </div>
       </div>
     </div>
