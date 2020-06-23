@@ -50,24 +50,58 @@
   color: #fd1015;
   background: rgba(253,16,21,.1);
   font-weight: 700;
-  text-decoration: none;
+  transition: font-size 0.3s ease;
+  text-decoration: underline #fd1015 solid 1px;
 }
 
 
 .highlighted-le-wagon:hover {
+  font-size: 1.1rem;
   color: #fd1015;
   background: rgba(253,16,21,.1);
-  font-weight: 700;
-  text-decoration: none;
+  text-decoration: underline #fd1015 solid 3px;
 }
 
 
-
-
-.section-about .water-engineer {
-  font-weight: 700;
-  color: rgba(0,0,0,0.5);
+.water-engineer {
+  // background-color: rgb(0,119,181);
+  // color: rgb(240, 240, 240);
+  color: rgb(0,119,181);
+  background-color: rgba(214, 214, 214,0.6);
+  font-weight: 600;
+  border-radius: 4px
 }
+
+.university-links {
+  color: rgb(0,119,181);
+  font-weight: 700;
+  line-height: 1.1em;
+  text-decoration: underline #fd1015 solid 1px;
+  transition: 0.3s ease;
+}
+
+.university-links:hover {
+  text-decoration: underline #fd1015 solid 3px;
+  font-size: 1.1rem;
+}
+
+
+.country-links {
+  color: rgb(0,119,181);
+  text-decoration: underline rgba(214, 214, 214,0.6) solid 3px;
+  transition: 0.3s ease;
+}
+
+.country-links:hover {
+  color: rgb(1, 100, 150);
+  text-decoration: underline rgba(180, 180, 180,1) solid 3px;
+}
+
+.tech-stack {
+  font-weight: 700;
+  text-decoration: underline rgb(80, 94, 102) solid 3px
+}
+
 
 
 // .section-about .section-about-links:hover {
